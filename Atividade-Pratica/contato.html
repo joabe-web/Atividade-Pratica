@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contato</title>
+</head>
+
+<body>
+  <h1>Formulario de contato</h1>
+  <strong>Entre em contato conosco</strong>
+  <form action="sucesso.html">
+    <fieldset>
+      <div>
+        <label for="name">Qual o seu nome:</label>
+        <input type="text">
+      </div>
+      <div>
+        <label for="email">Qual seu email:</label>
+        <input type="email">
+      </div>
+      <div>
+        <label for="Assunto">Qual assunto mais te interessa:</label>
+        <input type="text">
+      </div>
+      <div>
+        <label for="mensagem">Qual a mensagem você quer passar neste divulario?</label>
+        <p><textarea name="mensagem" id="mensagem" rows="4" cols="100"></textarea></p>
+      </div>
+    </fieldset>
+    <div>
+      <fieldset>
+        <div>
+          <label for="data">Qual a sua data de nascimento:</label>
+          <input type="date">
+        </div>
+        <div>
+          <label for="telefone">Qual seu numero de telefone</label>
+          <input type="tel" placeholder="(ex) xxxxx-xxxx">
+        </div>
+        <div>
+          <label for="carros">Escolha um carro:</label>
+          <select id="carros" name="carros">
+            <option>BMW</option>
+            <option>Ferrari</option>
+            <option>Audi</option>
+            <option>Uno</option>
+          </select>
+          <p><button type="reset">Limpar Formulario</button></p>
+        </div>
+      </fieldset>
+      <div><button type="submit">enviar</button></div>
+      <a href="/index.html">pagina inicial</a>
+  </form>
+
+</body>
+
+</html>
